@@ -30,3 +30,9 @@ plt.show()
 # Method #2
 plt.scatter(x, y)
 plt.show()
+
+# Metplotlib's degault x and y axis
+a = np.array([0, 10, 20, 30, 100, 30, 50, 100])
+
+plt.plot(a)
+plt.show()
