@@ -1,16 +1,18 @@
-# This is a sample Python script.
+# Matplotlib Tutorial Series
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Import relevant modules
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Creating simple arrays
+x = np.array([0,100])
+y = np.array([0,4])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Plotting x and y - a simple line
+# The first argument in the x-axis and the second argument
+# is the y-axis
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+plt.plot(x,y)
+plt.show()
+# You always need to write plt-show() in order to see the graph
+# plt-show()  # this shows the graph
