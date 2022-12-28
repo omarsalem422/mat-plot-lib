@@ -36,3 +36,10 @@ a = np.array([0, 10, 20, 30, 100, 30, 50, 100])
 
 plt.plot(a)
 plt.show()
+
+# Markers in matplotlib
+x = np.array([0, 1, 2, 3, 4])
+y = np.array([20, 30, 50, 100, 101])
+
+plt.plot(x, y, marker='s')
+plt.show()
