@@ -43,3 +43,16 @@ y = np.array([20, 30, 50, 100, 101])
 
 plt.plot(x, y, marker='s')
 plt.show()
+
+# Change the color and line reference of graphs!
+# There are so many different colors and linestyles!
+# Just google them to a play around
+x = np.array([0, 1, 2, 3, 4])
+y = np.array([20, 30, 50, 100, 101])
+
+# Markersize - markersize=10 (simplified to ms)
+# Marker color - markerfacecolor="blue"
+# Marker edge color - markeredgecolor="blue"
+plt.plot(x, y, c='black', marker='*', linestyle='--', markersize=10, markerfacecolor='blue',
+         markeredgecolor='blue', linewidth=2)
+plt.show()
